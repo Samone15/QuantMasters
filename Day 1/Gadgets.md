@@ -1,4 +1,4 @@
-GADGET PUZZLE
+#header H2 GADGET PUZZLE
 
 A firm wants to determine the highest floor of its n-story headquarters from which a gadget can fall without breaking. The firm has two identical gadgets to experiment with. 
 If one of them gets broken, it cannot be repaired, and the experiment will have to be completed with the remaining gadget. Design an algorithm in the best efficiency class you can 
@@ -15,7 +15,7 @@ to solve this problem.
    two cases -
           * If it breaks, then we check if second gadget breaks in this segment only.
           * If it doesn't, it means the highest floor the gadgets don't break is nth floor. Return n.
-//Code
+```C
 #include<stdio.h>
 #include<math.h>
 
@@ -49,3 +49,4 @@ int main()
 
     return 0;
 }
+```
