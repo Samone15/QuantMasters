@@ -1,7 +1,8 @@
 ## Orac and his play with number theory
 
 Orac is studying number theory, and he is interested in the properties of divisors. For two positive
-integers a and b, a is a divisor of b if and only if there exists an integer c, such that a + c = b.
+integers a and b, a is a divisor of b if and only if there exists an integer c, such that 
+a + c = b.
 For n >= 2, we will denote as f(n) the smallest positive divisor of n, except 1.
 
 
@@ -18,13 +19,11 @@ integer n = 6, n will be changed to 8.
 Orac loved it so much, so he decided to repeat this operation several times.
 
 
-Now, for two postive integers n and k, Orac asked you to add f(n) to n exactly k times (note that n
-will change after each operation, so f(n) may change too0 and tell him the final value of n.
+Now, for two postive integers n and k, Orac asked you to add f(n) to n exactly k times (note that n will change after each operation, so f(n) may change too) and tell him the final value of n.
 
 
-For example, if Orac gives you n = 5 and k = 2 at first you should add f(50 = 5 to n = 5, so your
-new value of n will be eqaul to n = 10, after that, you hsould ad df(10) = 2 to 10, so your new (and
-the final) value of n will be equal to 12.
+For example, if Orac gives you n = 5 and k = 2, at first you should add f(50 = 5 to n = 5, so your
+new value of n will be eqaul to n = 10, after that, you should add f(10) = 2 to 10, so your new (and the final) value of n will be equal to 12.
 
 
 Orac may ask you these queries many times.
