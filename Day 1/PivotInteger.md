@@ -11,8 +11,8 @@ Equilibrium index = 85
 Explanation: sum of values from 1 to 85 == sum of values from 85 to 120
 
 
-To find the value of x where the sum of elements from 1 to x is equal to the sum of elements from x to n, we can set up the following equation:
-
+```To find the value of x where the sum of elements from 1 to x is equal to the sum of elements from x to n, we can set up the following equation:
+ 
 (1 + 2 + 3 + ---- + x) = (x + ----- + n)
 
 x(x+1) / 2 = (x+n)(n-x+1) / 2
@@ -20,12 +20,13 @@ x(x+1) / 2 = (x+n)(n-x+1) / 2
 Upon calculation, 2x^2 = n^2 + n
 
 x = sqrt(n(n+1) / 2)
+```
 
 Algorithm:
 
 Calculate sum = (n * (n+1)) / 2 and take sqrt 'k'. If k*k = sum, then k is the pivot integer, else return -1.
 
-```
+```java
 class Solution {
     public int pivotInteger(int n) {
         if(n == 1){
