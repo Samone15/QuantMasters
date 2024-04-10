@@ -10,11 +10,13 @@ a. Pattern = 00001
    n - m = (1000 - 5) = 995 indexes
    Because it is 0-indexed, 995+1 = 996 indexes
    The total number of comparisions is 996*5 = 4980
+   
 b. Pattern = 10000
    For every index i from 0 to (n - m), the first character 1 itself doesn't match. So 1 comparision is made at each index.
    (n - m) = (1000 - 5) = 995 indexes
    0-indexed, so 996 indexes.
    The total number of comparisions is 996*1 = 996
+   
 c. Pattern = 01010
    For every index i from 0 to (n - m), the first character matches, second character 1 doesn't match. So 2 comparisions is made at each index.
    (n - m) = (1000 - 5) = 995 indexes
