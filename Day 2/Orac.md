@@ -1,6 +1,6 @@
 ## Orac and his play with number theory
 
-Orac is studying number theory, and he is interested in the properties of divisirs. For two positive
+Orac is studying number theory, and he is interested in the properties of divisors. For two positive
 integers a and b, a is a divisor of b if and only if there exists an integer c, such that a + c = b.
 For n >= 2, we will denote as f(n) the smallest positive divisor of n, except 1.
 
@@ -30,7 +30,7 @@ the final) value of n will be equal to 12.
 Orac may ask you these queries many times.
 
 
-Input:
+#### Input:
 
 The first line of the input is a single integer t(1 <= t <= 100), the number os times that Orac
 will ask you.
@@ -43,6 +43,6 @@ corresponding to a query by Orac.
 It is guaranteed that the total sum of n is ar most 10^6
 
 
-Output:
+#### Output:
 
 Print t lines, the i-th of them should contain the final value of n in the i-th query by Orac
